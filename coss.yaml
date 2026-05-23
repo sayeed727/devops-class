@@ -1,4 +1,4 @@
-Resources:
+cluster info
   MyEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
@@ -17,3 +17,5 @@ Resources:
           # Create a simple test webpage with the instance IDwq
 
           echo "<h1>Hello World from EC2 instance: ${AWS::InstanceId}</h1>" > /var/www/html/index.html
+hello world
+hii
